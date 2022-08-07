@@ -1,5 +1,10 @@
-/*
-*/
+//
+//  CXD1095Q.h
+//  Sony CXD1095Q io chip emulator for arm32.
+//
+//  Created by Fredrik Ahlström on 2015-05-27.
+//  Copyright © 2015-2022 Fredrik Ahlström. All rights reserved.
+//
 
 #ifndef CXD1095Q_HEADER
 #define CXD1095Q_HEADER
