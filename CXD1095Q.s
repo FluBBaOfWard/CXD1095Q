@@ -73,7 +73,7 @@ CXD1095QReg2W:
 	bx lr
 CXD1095QReg3W:
 	ldrb r1,[cxdptr,#cxdRegister1]
-	eor r1,r1,#0xc0
+	eor r1,r1,#0xC0
 	tst r1,#0xC0
 	ldrne r1,[cxdptr,#cxdPortDOutFptr]
 	cmpne r1,#0
